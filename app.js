@@ -1,1 +1,2 @@
-console.log("Hello");
+const myModule = require('./my-module.js');
+console.log(myModule.myFunction());
